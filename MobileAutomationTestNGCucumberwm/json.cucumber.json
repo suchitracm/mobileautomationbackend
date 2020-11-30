@@ -1,0 +1,403 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1881520600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start wiremock server",
+            "match": {
+              "location": "UserDetailSteps.i_start_wiremock_server()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 865367900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate response with all user details",
+        "description": "",
+        "id": "mobile-automation-api-testing;to-validate-response-with-all-user-details",
+        "after": [
+          {
+            "result": {
+              "duration": 7664100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44959900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I send get request",
+            "match": {
+              "location": "UserDetailSteps.i_send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 757098000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to get response of all users",
+            "match": {
+              "location": "UserDetailSteps.i_should_be_able_to_get_response_of_all_users()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 65526600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start wiremock server",
+            "match": {
+              "location": "UserDetailSteps.i_start_wiremock_server()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17063500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To validate response of a single user detail",
+        "description": "",
+        "id": "mobile-automation-api-testing;to-validate-response-of-a-single-user-detail",
+        "after": [
+          {
+            "result": {
+              "duration": 15113300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25704000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I send get request",
+            "match": {
+              "location": "UserDetailSteps.i_send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22938200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should get response with a single user",
+            "match": {
+              "location": "UserDetailSteps.i_should_get_response_with_a_single_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 53988600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start wiremock server",
+            "match": {
+              "location": "UserDetailSteps.i_start_wiremock_server()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 31637200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate response to create a new user detail",
+        "description": "",
+        "id": "mobile-automation-api-testing;to-validate-response-to-create-a-new-user-detail",
+        "after": [
+          {
+            "result": {
+              "duration": 5748700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I send post request",
+            "match": {
+              "location": "UserDetailSteps.i_send_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should be able to create a new user detail",
+            "match": {
+              "location": "UserDetailSteps.i_should_be_able_to_create_a_new_user_detail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 45912300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start wiremock server",
+            "match": {
+              "location": "UserDetailSteps.i_start_wiremock_server()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19256800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "To validate response to update an user detail",
+        "description": "",
+        "id": "mobile-automation-api-testing;to-validate-response-to-update-an-user-detail",
+        "after": [
+          {
+            "result": {
+              "duration": 7453700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I send put request",
+            "match": {
+              "location": "UserDetailSteps.i_send_put_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should be able to update an user detail",
+            "match": {
+              "location": "UserDetailSteps.i_should_be_able_to_update_an_user_detail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 45830700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start wiremock server",
+            "match": {
+              "location": "UserDetailSteps.i_start_wiremock_server()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22971200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "To validate response to delete an user detail",
+        "description": "",
+        "id": "mobile-automation-api-testing;to-validate-response-to-delete-an-user-detail",
+        "after": [
+          {
+            "result": {
+              "duration": 3999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I send delete request",
+            "match": {
+              "location": "UserDetailSteps.i_send_delete_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should be able to delete an user detail",
+            "match": {
+              "location": "UserDetailSteps.i_should_be_able_to_delete_an_user_detail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mobile Automation API Testing",
+    "description": "As a user I should be able to validate userdetail response with wiremock server",
+    "id": "mobile-automation-api-testing",
+    "keyword": "Feature",
+    "uri": "UserDetailAPI.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Userdetails"
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1855812800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start wiremock server",
+            "match": {
+              "location": "RentalCarSteps.i_start_wiremock_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35679900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send get request",
+            "match": {
+              "location": "RentalCarSteps.i_send_get_request()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1375324900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To verify response of Tesla cars with blue color",
+        "description": "",
+        "id": "rental-car;to-verify-response-of-tesla-cars-with-blue-color",
+        "after": [
+          {
+            "result": {
+              "duration": 329585100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33801,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to get response of all cars",
+            "match": {
+              "location": "RentalCarSteps.i_should_be_able_to_get_response_of_all_cars()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19789501,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should get response of Blue Tesla cars",
+            "match": {
+              "location": "RentalCarSteps.i_should_get_response_of_Blue_Tesla_cars()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 44338601,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start wiremock server",
+            "match": {
+              "location": "RentalCarSteps.i_start_wiremock_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23193599,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send get request",
+            "match": {
+              "location": "RentalCarSteps.i_send_get_request()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18910400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To verify response of cars with lowest price",
+        "description": "",
+        "id": "rental-car;to-verify-response-of-cars-with-lowest-price",
+        "after": [
+          {
+            "result": {
+              "duration": 67220801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5767401,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get response of cars with lowest price",
+            "match": {
+              "location": "RentalCarSteps.i_should_get_response_of_cars_with_lowest_price()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 50037199,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start wiremock server",
+            "match": {
+              "location": "RentalCarSteps.i_start_wiremock_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158793200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send get request",
+            "match": {
+              "location": "RentalCarSteps.i_send_get_request()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16667899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To verify response of Cars with lowest price with discounts",
+        "description": "",
+        "id": "rental-car;to-verify-response-of-cars-with-lowest-price-with-discounts",
+        "after": [
+          {
+            "result": {
+              "duration": 31293199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3626199,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should get response of cars with lowest price with discount",
+            "match": {
+              "location": "RentalCarSteps.i_should_get_response_of_cars_with_lowest_price_with_discount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 40519700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start wiremock server",
+            "match": {
+              "location": "RentalCarSteps.i_start_wiremock_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20893000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send get request",
+            "match": {
+              "location": "RentalCarSteps.i_send_get_request()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15913800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "To verify response of cars with highest profit",
+        "description": "",
+        "id": "rental-car;to-verify-response-of-cars-with-highest-profit",
+        "after": [
+          {
+            "result": {
+              "duration": 43318100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16277700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should get response of cars with highest profit",
+            "match": {
+              "location": "RentalCarSteps.i_should_get_response_of_cars_with_highest_profit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Rental Car",
+    "description": "As a user I should be able to validate response with wiremock server",
+    "id": "rental-car",
+    "keyword": "Feature",
+    "uri": "RentalCar.feature"
+  }
+]

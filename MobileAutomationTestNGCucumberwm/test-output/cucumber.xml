@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="4.172997">
+<testcase classname="Rental Car" name="To verify response of Tesla cars with blue color" time="3.616226">
+<system-out><![CDATA[Given I start wiremock server...............................................passed
+When I send get request.....................................................passed
+Then I should be able to get response of all cars...........................passed
+And I should get response of Blue Tesla cars................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rental Car" name="To verify response of cars with lowest price" time="0.159431">
+<system-out><![CDATA[Given I start wiremock server...............................................passed
+When I send get request.....................................................passed
+Then I should get response of cars with lowest price........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rental Car" name="To verify response of Cars with lowest price with discounts" time="0.260418">
+<system-out><![CDATA[Given I start wiremock server...............................................passed
+When I send get request.....................................................passed
+Then I should get response of cars with lowest price with discount..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Rental Car" name="To verify response of cars with highest profit" time="0.136922">
+<system-out><![CDATA[Given I start wiremock server...............................................passed
+When I send get request.....................................................passed
+Then I should get response of cars with highest profit......................passed
+]]></system-out>
+</testcase>
+</testsuite>

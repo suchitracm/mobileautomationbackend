@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="3.939982">
+<testcase classname="Mobile Automation API Testing" name="To validate response with all user details" time="3.556611">
+<system-out><![CDATA[Given I start wiremock server...............................................passed
+When I send get request.....................................................passed
+Then I should be able to get response of all users..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Mobile Automation API Testing" name="To validate response of a single user detail" time="0.146346">
+<system-out><![CDATA[Given I start wiremock server...............................................passed
+When I send get request.....................................................passed
+Then I should get response with a single user...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Mobile Automation API Testing" name="To validate response to create a new user detail" time="0.091458">
+<system-out><![CDATA[Given I start wiremock server...............................................passed
+When I send post request....................................................passed
+Then I should be able to create a new user detail...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Mobile Automation API Testing" name="To validate response to update an user detail" time="0.072693">
+<system-out><![CDATA[Given I start wiremock server...............................................passed
+When I send put request.....................................................passed
+Then I should be able to update an user detail..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Mobile Automation API Testing" name="To validate response to delete an user detail" time="0.072874">
+<system-out><![CDATA[Given I start wiremock server...............................................passed
+When I send delete request..................................................passed
+Then I should be able to delete an user detail..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
